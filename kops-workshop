@@ -100,7 +100,7 @@ run the command
 
 then run 
 
-#	kops validate cluster --state gs://"<bucket-name>"/ 
+#	kops validate cluster --state gs://<bucket-name>/ 
 
 **Master and 3 Nodes are up and running
 
