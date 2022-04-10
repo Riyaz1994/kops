@@ -77,7 +77,7 @@ ___
 Every time you create a cluster, it also creates a Virtual Private Cloud (VPC), per se. 
 Google Cloud allows you to create only a maximum of 5 VPC’s in one project, and a total of only 5 clusters
 
-* ### **Create a Bucket**
+* ## **Create a Bucket**
 
     * Kops needs a State Store to hold the configuration of our cluster. In our case, it is Google Cloud Storage Buckets. So, let’s create one empty Bucket using the following:
 ```
@@ -90,7 +90,7 @@ $ gsutil mb gs://mykops-bucket/
 $ export KOPS_STATE_STORE=gs://mykops-bucket/ 
 ```
 
-* ### **Create the Cluster & InstanceGroup Objects in Our State Store**
+* ## **Create the Cluster & InstanceGroup Objects in Our State Store**
 
 ```
 $ PROJECT=`gcloud config get-value project`
@@ -106,7 +106,7 @@ $ kops create cluster mykops.k8s.local --zones us-central1-a --project=${PROJECT
 $ kops get cluster
 ```
 
-* ### **Create a Cluster**
+* ## **Create a Cluster**
 
     * We are now ready with all of the changes and the cluster configuration, so we will proceed with the creation of the cluster. 
 
@@ -132,7 +132,7 @@ $ kubectl get nodes
 * You will see the node counts once your Cluster is up
 * verify 1 Master and 3 Nodes are up and running
 ___
-### Now let's install **krew** - A plugin manager for kubernetes components
+## Now let's install **krew** - A plugin manager for kubernetes components
 
 * The script is available in our github repo click [here](https://github.com/ncodeit-io/devops-cloud/tree/main/kubernetes/scripts
 )
