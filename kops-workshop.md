@@ -150,6 +150,7 @@ $ cd devops-cloud/kubernetes/scripts
 
 * run the script 01-krew-install.sh
 ```
+$ chmod +x *
 $ ./01-krew-install.sh 
 ```
 * pay attention to the screen and follow the instructions provided post execution
