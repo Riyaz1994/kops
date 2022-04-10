@@ -138,6 +138,7 @@ ___
 )
 * clone the repo on your control machine and navigate to devops-cloud/kubernetes/scripts
 ```
+$ git clone https://github.com/ncodeit-io/devops-cloud.git
 $ cd devops-cloud/kubernetes/scripts
 ```
 
