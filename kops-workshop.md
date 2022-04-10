@@ -139,6 +139,7 @@ ___
 * clone the repo on your control machine and navigate to devops-cloud/kubernetes/scripts
 ```
 $ git clone https://github.com/ncodeit-io/devops-cloud.git
+
 $ cd devops-cloud/kubernetes/scripts
 ```
 
@@ -151,6 +152,7 @@ $ cd devops-cloud/kubernetes/scripts
 * run the script 01-krew-install.sh
 ```
 $ chmod +x *
+
 $ ./01-krew-install.sh 
 ```
 * pay attention to the screen and follow the instructions provided post execution
