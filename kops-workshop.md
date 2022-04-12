@@ -173,7 +173,7 @@ $ ./02-kubectx-kubens-install.sh
 ```
 $ ./03-k9s-install.sh
 
-$ export PATH="/home/riyaz_md94/.local/bin:$PATH"
+$ export PATH="/home/<username>/.local/bin:$PATH"
 ```
 * This will install k9s
     * **K9S** - terminal based UI to interact with K8s cluster
